@@ -44,7 +44,7 @@ console.log(yoda);
 /*4. People been lining up for hours to get the newest iphone release. Help manage the unruly crowd of privileged customers by serving them one at a time and assiging it to a variable named `nowServing`. Console.log this new variable as well as the waitList.*/
 
 var waitList = ["Chance the Rapper", "Khalid", "Tay-Tay", "Barry Manilow", "Piko Taro"];
-waitList.shift();
+var nowServing = waitList.shift();
 console.log(waitList);
 
 
